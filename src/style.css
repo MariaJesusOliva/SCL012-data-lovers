@@ -1,0 +1,28 @@
+.contenedor {
+    width: 1250px;
+    height: 650px;
+    background-color: #0E0B16;
+}
+
+.header {
+    width: 1200px;
+    height: 120px;
+    background-color: blue;
+    position: relative;
+    font-size: xx-large;
+}
+
+.mainTitle {
+    position: relative;
+    top: 20px;
+    left: 550px;
+}
+
+.main {
+    width: 1200px;
+    height: 520px;
+    background-color: #E7DFDD;
+    position: relative;
+    top: -20px;
+    font-size: medium;
+}

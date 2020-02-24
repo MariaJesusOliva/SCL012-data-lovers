@@ -390,9 +390,13 @@ en base al conocimiento que puedas obtener de tu usuario. Estas preguntas te
 pueden ayudar:
 
 * ¿Quiénes son los principales usuarios de producto?
+  - Usuarios nuevos del juego.
 * ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
+  - Acceder de forma fácil y rápida a características especificas de cada personaje.
 * ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
+  - El filtro por casas y profesión ya que le permite crear al usuario un personaje con características similares a sus personajes favoritos.
 * ¿Cuándo utilizan o utilizarían el producto?
+  - En la creación de personajes principalmente.
 * Toda tu investigación previa debe tener como resultado todas las Historias
   de Usuario de tu proyecto.
 * No hagas los prototipos de alta fidelidad de todas tus Historias. Comienza
