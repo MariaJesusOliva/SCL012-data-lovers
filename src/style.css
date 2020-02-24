@@ -7,15 +7,15 @@
 .header {
     width: 1200px;
     height: 120px;
-    background-color: blue;
     position: relative;
     font-size: xx-large;
 }
 
 .mainTitle {
     position: relative;
+    color: #E7DFDD;
     top: 20px;
-    left: 550px;
+    left: 350px;
 }
 
 .main {
@@ -24,5 +24,10 @@
     background-color: #E7DFDD;
     position: relative;
     top: -20px;
+    left: 20px;
     font-size: medium;
+}
+
+.barra {
+    background-color: #A239CA;
 }
