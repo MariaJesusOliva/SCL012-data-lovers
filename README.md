@@ -1,17 +1,15 @@
-# Data Lovers
+# Wizard Guide
 
-## Índice
+## ¿Quiénes son los principales usuarios de producto?
+Usuarios nuevos del juego.
+## ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
+El filtro por casas y profesión/ocupación ya que le permite crear al usuario un personaje con características similares a sus personajes favoritos.
+## ¿Cuándo utilizan o utilizarían el producto?
+En la creación de personajes principalmente.
+## ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
+En el [prototipo](https://www.figma.com/file/jxxpJCPrnfQVWitK0bCuDT/Wizard-Guide?node-id=0%3A1) vemos que podemos acceder de forma fácil y rápida a los personajes que tengas una característica específica.
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Parte adicional-opcional (extensión)](#6-parte-adicional-opcional-extensión)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-
-***
+![prototipo](prototipo.jpg)
 
 ## 1. Preámbulo
 
@@ -389,19 +387,7 @@ Antes de empezar a escribir código, debes definir qué deberá hacer el product
 en base al conocimiento que puedas obtener de tu usuario. Estas preguntas te
 pueden ayudar:
 
-* ¿Quiénes son los principales usuarios de producto?
-  - Usuarios nuevos del juego.
-* ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
-  - Acceder de forma fácil y rápida a características especificas de cada personaje.
-* ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
-  - El filtro por casas y profesión ya que le permite crear al usuario un personaje con características similares a sus personajes favoritos.
-* ¿Cuándo utilizan o utilizarían el producto?
-  - En la creación de personajes principalmente.
-* Toda tu investigación previa debe tener como resultado todas las Historias
-  de Usuario de tu proyecto.
-* No hagas los prototipos de alta fidelidad de todas tus Historias. Comienza
-  solamente por los que se necesiten para tu Sprint 1 (semana 1 de trabajo). Más
-  pistas en la guía de organización para el proyecto.
+
 
 Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
