@@ -3,12 +3,15 @@
 ## ¿Quiénes son los principales usuarios de producto?
 Usuarios nuevos del juego.
 ## ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
-El filtro por casas y profesión/ocupación ya que le permite crear al usuario un personaje con características similares a sus personajes favoritos.
+El filtro por casas y pureza de sangre, ya que le permite crear al usuario crear un mago o bruja con características similares a sus personajes favoritos.
 ## ¿Cuándo utilizan o utilizarían el producto?
 En la creación de personajes principalmente.
 ## ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
 En el [prototipo](https://www.figma.com/file/jxxpJCPrnfQVWitK0bCuDT/Wizard-Guide?node-id=0%3A1) vemos que podemos acceder de forma fácil y rápida a los personajes que tengas una característica específica.
 
+![protobaja1](protobaja1.jpg)
+![protobaja2](protobaja2.jpg)
+![protobaja3](protobaja3.jpg)
 ![prototipo](prototipo.jpg)
 
 ## 1. Preámbulo
