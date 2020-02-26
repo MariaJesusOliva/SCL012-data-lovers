@@ -1,4 +1,7 @@
-.contenedor {
+* {
+    padding: 0;
+    margin: 0;
+}.contenedor {
     width: 1250px;
     height: 650px;
     background-color: #0E0B16;
@@ -29,5 +32,25 @@
 }
 
 .barra {
+    list-style: none;
+    overflow: hidden;
     background-color: #A239CA;
+    justify-content: space-between;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    color: #E7DFDD;
+}
+
+.menu li a:hover {
+    background-color: #0E0B16;
+}
+.submenu-menu {
+    display: none;
 }
