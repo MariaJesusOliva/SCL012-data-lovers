@@ -3,7 +3,7 @@
 ## ¿Quiénes son los principales usuarios de producto?
 Usuarios nuevos del juego.
 ## ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
-El filtro por casas y pureza de sangre, ya que le permite crear al usuario crear un mago o bruja con características similares a sus personajes favoritos.
+El filtro por casas y pureza de sangre, ya que le permite crear al usuario un mago o bruja con características similares a sus personajes favoritos.
 ## ¿Cuándo utilizan o utilizarían el producto?
 En la creación de personajes principalmente.
 ## ¿Cuáles son los objetivos de estos usuarios en relación con el producto?

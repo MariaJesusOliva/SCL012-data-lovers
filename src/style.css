@@ -1,56 +1,83 @@
 * {
     padding: 0;
     margin: 0;
-}.contenedor {
+}
+.contenedor {
     width: 1250px;
-    height: 650px;
+    height: 830px;
     background-color: #0E0B16;
 }
-
 .header {
     width: 1200px;
     height: 120px;
     position: relative;
     font-size: xx-large;
 }
-
 .mainTitle {
     position: relative;
     color: #E7DFDD;
     top: 20px;
     left: 350px;
 }
-
 .main {
     width: 1200px;
-    height: 520px;
+    height: 715px;
     background-color: #E7DFDD;
     position: relative;
     top: -20px;
     left: 20px;
     font-size: medium;
 }
-
 .barra {
     list-style: none;
     overflow: hidden;
-    background-color: #A239CA;
+    background-color: #813772;
     justify-content: space-between;
 }
-
 .menu li {
     display: inline-block;
 }
-
 .menu li a {
     display: block;
     padding: 10px;
     color: #E7DFDD;
 }
-
 .menu li a:hover {
     background-color: #0E0B16;
 }
 .submenu-menu {
     display: none;
+}
+.inicio {
+    width: 1160px;
+    height: 180px;
+    background-color: #062F4F;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.casas {
+    width: 1160px;
+    height: 180px;
+    background-color: #062F4F;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.linaje {
+    width: 1160px;
+    height: 180px;
+    background-color: #062F4F;
+    position: relative;
+    top: 110px;
+    left: 20px;
+}
+.ordenar {
+    width: 1160px;
+    height: 625px;
+    background-color: #062F4F;
+    position: relative;
+    display: none;
+    top: -505px;
+    left: 20px;
 }
