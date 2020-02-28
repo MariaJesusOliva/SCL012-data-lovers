@@ -5,34 +5,24 @@
 .contenedor {
     width: 1250px;
     height: 830px;
+    color: #E7DFDD;
     background-color: #0E0B16;
+    display: flex;
+    flex-direction: column;
 }
 .header {
     width: 1200px;
     height: 120px;
-    position: relative;
-    font-size: xx-large;
-}
-.mainTitle {
-    position: relative;
-    color: #E7DFDD;
-    top: 20px;
-    left: 350px;
 }
 .main {
     width: 1200px;
-    height: 715px;
+    height: 915px;
     background-color: #E7DFDD;
-    position: relative;
-    top: -20px;
-    left: 20px;
-    font-size: medium;
 }
 .barra {
     list-style: none;
     overflow: hidden;
     background-color: #813772;
-    justify-content: space-between;
 }
 .menu li {
     display: inline-block;
@@ -40,7 +30,6 @@
 .menu li a {
     display: block;
     padding: 10px;
-    color: #E7DFDD;
 }
 .menu li a:hover {
     background-color: #0E0B16;
@@ -48,36 +37,22 @@
 .submenu-menu {
     display: none;
 }
-.inicio {
-    width: 1160px;
-    height: 180px;
-    background-color: #062F4F;
-    position: relative;
-    top: 30px;
-    left: 20px;
+.mainContent {
+    width: 1200px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-.casas {
+.content {
     width: 1160px;
     height: 180px;
     background-color: #062F4F;
-    position: relative;
-    top: 70px;
-    left: 20px;
 }
-.linaje {
-    width: 1160px;
-    height: 180px;
-    background-color: #062F4F;
-    position: relative;
-    top: 110px;
-    left: 20px;
+.seeMore {
+    display: none;
 }
 .ordenar {
-    width: 1160px;
     height: 625px;
-    background-color: #062F4F;
-    position: relative;
     display: none;
-    top: -505px;
-    left: 20px;
 }
