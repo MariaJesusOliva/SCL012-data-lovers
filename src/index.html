@@ -19,9 +19,9 @@
             <li><a id="inicio">Bienvenida</a></li>
             <li><a id="casas">Casas</a></li>
             <li><a id="linaje">Pureza de Sangre</a></li>
-            <li class="submenu">
+            <li class="submenu" id="submenu">
               <a>Ordenar</a>
-              <ul class="submenu-menu">
+              <ul class="submenu-menu" id="submenu-menu">
               <li value="nombreAsc" id="nombreAsc">Nombres A-Z</line>
               <li value="nombreDes" id="nombreDes">Nombres Z-A</line>
               </ul>
@@ -29,22 +29,29 @@
           </ul>
         </nav>
           <div class ="mainContent">
-            <div class="inicio content">
-              <h2>Bienvenid@s magos y brujas:</h2>
-              <p>Wizard guide fue creada con el objetivo de brindarle acceso rápido y claro a 
+            <div class="welcome">
+              <div class="inicio content">
+                <h2>Bienvenid@s magos y brujas:</h2>
+                <p>Wizard guide fue creada con el objetivo de brindarle acceso rápido y claro a 
                 la información principal de los personajes del aclamado juego “Wizards Unite” 
                 de la saga de Harry Potter. Aprende desde la casa de estudio y linaje hasta 
                 patronus y características de la varita mágica de tus personajes favoritos.</p>
-              <div class="seeMore">
+                <button id="seeMoreButton" class="seeMoreButton button">Ver más</button>
+              </div>
+              <div class="seeMore content" id="seeMore">
                 <h3>Aqui puedes ver el tráiler en español</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/3cA_EAtkaLc" 
+                <iframe width="200" height="100" src="https://www.youtube.com/embed/3cA_EAtkaLc" 
                 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
                 <button id="seeLess" class="seeLess button">Ver menos</button>
               </div>
             </div>
-            <div class="casas content"></div>
-            <div class="linaje content"></div>
+            <div class="casas content">
+              <h2>Casas:</h2>
+            </div>
+            <div class="linaje content">
+              <h2>Pureza de sangre:</h2>
+            </div>
             <div class="ordenar content"></div>
           </div>
     </div>

@@ -13,10 +13,16 @@
 .header {
     width: 1200px;
     height: 120px;
+    display: flex;
+    justify-content: center;
+}
+.mainTitle {
+    width: 300px;
 }
 .main {
     width: 1200px;
     height: 915px;
+    margin: auto;
     background-color: #E7DFDD;
 }
 .barra {
@@ -46,11 +52,29 @@
 }
 .content {
     width: 1160px;
-    height: 180px;
+    height: 140px;
+    margin: auto;
     background-color: #062F4F;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.welcome {
+    flex-direction: column;
+}
+h2 {
+    width: 400px;
+    background-color: green;
+}
+p {
+    width: 900px ;
+    background-color: indigo;
+    margin: auto;
 }
 .seeMore {
-    display: none;
+    height: 160px;
+};
 }
 .ordenar {
     height: 625px;
