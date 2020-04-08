@@ -19,13 +19,11 @@
             <li><a id="inicio">Bienvenida</a></li>
             <li><a id="casas">Casas</a></li>
             <li><a id="linaje">Pureza de Sangre</a></li>
-            <li class="submenu" id="submenu">
-              <a>Ordenar</a>
-              <ul class="submenu-menu" id="submenu-menu">
-              <li value="nombreAsc" id="nombreAsc">Nombres A-Z</line>
-              <li value="nombreDes" id="nombreDes">Nombres Z-A</line>
-              </ul>
-            </li>
+            <li class="submenu" id="submenu"><a>Ordenar</a></li>
+          </ul>
+          <ul class="submenu-menu" id="submenu-menu" style="display: none">
+            <li><a value="nombreAsc" id="nombreAsc">Nombres A-Z</a></li>
+            <li><a value="nombreDes" id="nombreDes">Nombres Z-A</a></li>
           </ul>
         </nav>
           <div class ="mainContent">
@@ -38,7 +36,7 @@
                 patronus y características de la varita mágica de tus personajes favoritos.</p>
                 <button id="seeMoreButton" class="seeMoreButton button">Ver más</button>
               </div>
-              <div class="seeMore content" id="seeMore">
+              <div class="seeMore content" id="seeMore" style="display: none">
                 <h3>Aqui puedes ver el tráiler en español</h3>
                 <iframe width="200" height="100" src="https://www.youtube.com/embed/3cA_EAtkaLc" 
                 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -48,15 +46,26 @@
             </div>
             <div class="casas content">
               <h2>Casas:</h2>
+              <div class="mainButtons">
+                <button class="gryf houseB"></button>
+                <button class="huff houseB"></button>
+                <button class="rave houseB"></button>
+                <button class="slyt houseB"></button>
+              </div>
             </div>
             <div class="linaje content">
               <h2>Pureza de sangre:</h2>
+              <div class="mainButtons">
+                <button class="muggle linajeB">Muggle</button>
+                <button class="mestizo linajeB">Mestiza</button>
+                <button class="sangrepura linajeB">Sangre Pura</button>
+              </div>
             </div>
-            <div class="ordenar content"></div>
+            <div class="ordenar content" style="display: none"></div>
           </div>
     </div>
     </div>
     <div id="root"></div>
-    <script type="module" src="main.js"></script>
+    <script type="module" src="data.js"></script>
   </body>
 </html>

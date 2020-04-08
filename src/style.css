@@ -30,6 +30,10 @@
     overflow: hidden;
     background-color: #813772;
 }
+.menu {
+    position: relative;
+    margin: auto;
+}
 .menu li {
     display: inline-block;
 }
@@ -40,8 +44,16 @@
 .menu li a:hover {
     background-color: #0E0B16;
 }
+.menu li a ul {
+    position: absolute;
+    top: 30px;
+}
 .submenu-menu {
-    display: none;
+    position: absolute;
+    top: 80px;
+    left: 350px;
+    padding: 10px;
+    background-color: #0E0B16;
 }
 .mainContent {
     width: 1200px;
@@ -65,18 +77,46 @@
 }
 h2 {
     width: 400px;
-    background-color: green;
 }
 p {
-    width: 900px ;
-    background-color: indigo;
+    width: 900px;
     margin: auto;
+}
+.button {
+    background-color:#0E0B16;
+    color: #E7DFDD;
 }
 .seeMore {
     height: 160px;
-};
+}
+.mainButtons {
+    display: flex;
+    justify-content: space-around;
+}
+.houseB {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+.gryf {
+    background-image: url(./img/gryf.jpg);
+}
+.huff {
+    background-image: url(./img/huff.jpg);
+}
+.rave {
+    background-image: url(./img/rave.jpg);
+}
+.slyt {
+    background-image: url(./img/slyt.jpg);
+}
+.linajeB {
+    height: 30px;
+    width: 120px;
+    color: #E7DFDD;
+    background-color: #062F4F;
 }
 .ordenar {
     height: 625px;
-    display: none;
 }
