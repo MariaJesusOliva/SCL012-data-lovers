@@ -4,6 +4,7 @@ console.log(POTTER);
 
 //SHOW MORE INFO IN WELCOME
 //create div
+let firstElement = document.getElementById('inicioContent');
 let addFirstElement = document.createElement('div');
 let elementForTrailer = document.createElement('h3');
 let textForTrailer = document.createTextNode('Aqui puedes ver el tráiler en español');
@@ -24,7 +25,7 @@ addButton.appendChild(addTextButton);
 
 //function to show div
 function seeMoreInfo(){
-    console.log(addFirstElement);
+    firstElement.innerHTML = firstElement + addFirstElement;
 }
 //function in button
 document.getElementById('seeMoreButton').onclick = function (){
