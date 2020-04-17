@@ -28,32 +28,29 @@
 .barra {
     list-style: none;
     overflow: hidden;
-    background-color: #813772;
 }
 .menu {
     position: relative;
-    margin: auto;
+    margin: 0px;
+    list-style: none;
 }
-.menu li {
-    display: inline-block;
-}
-.menu li a {
+.mainBarra {
+    width: 250px;
+    background-color: #813772;
+    padding: 10px 15px;
     display: block;
-    padding: 10px;
 }
-.menu li a:hover {
+.mainBarra:hover{
     background-color: #0E0B16;
 }
-.menu li a ul {
-    position: absolute;
-    top: 30px;
+.menu > li {
+    float: left;
 }
-.submenu-menu {
-    position: absolute;
-    top: 80px;
-    left: 350px;
-    padding: 10px;
+.submenu li {
+    width: 250px;
     background-color: #0E0B16;
+    padding: 10px 15px;
+    display: none;
 }
 .mainContent {
     width: 1200px;
@@ -89,6 +86,10 @@ p {
 .seeMore {
     height: 160px;
 }
+.youtubeLink {
+    width: 200px;
+    height: 100px;
+}
 .mainButtons {
     display: flex;
     justify-content: space-around;
@@ -112,7 +113,7 @@ p {
     background-image: url(./img/slyt.jpg);
 }
 .linajeB {
-    height: 30px;
+    height: 50px;
     width: 120px;
     color: #E7DFDD;
     background-color: #062F4F;

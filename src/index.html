@@ -16,14 +16,15 @@
       <div class="main">
         <nav class="barra">
           <ul class="menu">
-            <li><a id="inicio">Bienvenida</a></li>
-            <li><a id="casas">Casas</a></li>
-            <li><a id="linaje">Pureza de Sangre</a></li>
-            <li class="submenu" id="submenu"><a>Ordenar</a></li>
-          </ul>
-          <ul class="submenu-menu" id="submenu-menu" style="display: none">
-            <li><a value="nombreAsc" id="nombreAsc">Nombres A-Z</a></li>
-            <li><a value="nombreDes" id="nombreDes">Nombres Z-A</a></li>
+            <li><a id="inicio" class="mainBarra">Bienvenida</a></li>
+            <li><a id="casas" class="mainBarra">Casas</a></li>
+            <li><a id="linaje" class="mainBarra">Pureza de Sangre</a></li>
+            <li><a id="ordenar" class="mainBarra">Ordenar</a>
+              <ul class="submenu-menu" id="submenu-menu">
+                <li><a value="nombreAsc" id="nombreAsc" class="subBarra">Nombres A-Z</a></li>
+                <li><a value="nombreDes" id="nombreDes" class="subBarra">Nombres Z-A</a></li>
+              </ul>
+            </li>
           </ul>
         </nav>
           <div class ="mainContent">
@@ -35,13 +36,6 @@
                 de la saga de Harry Potter. Aprende desde la casa de estudio y linaje hasta 
                 patronus y características de la varita mágica de tus personajes favoritos.</p>
                 <button id="seeMoreButton" class="seeMoreButton button">Ver más</button>
-              </div>
-              <div class="seeMore content" id="seeMore" style="display: none">
-                <h3>Aqui puedes ver el tráiler en español</h3>
-                <iframe width="200" height="100" src="https://www.youtube.com/embed/3cA_EAtkaLc" 
-                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>
-                <button id="seeLess" class="seeLess button">Ver menos</button>
               </div>
             </div>
             <div class="casas content">
@@ -66,6 +60,6 @@
     </div>
     </div>
     <div id="root"></div>
-    <script type="module" src="data.js"></script>
+    <script type="module" src="main.js"></script>
   </body>
 </html>
